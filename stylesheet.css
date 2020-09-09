@@ -1,0 +1,113 @@
+body {
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  * button{
+    cursor: pointer;
+  }
+  
+  header {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  .game div {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .computer {
+    background: #F7F7F7;
+    border: solid  #F7F7F7 1px;
+  }
+
+  .computer_guess {
+      font-size: 40pt;
+      color: grey;
+  }
+  
+  .player {
+    border: solid black 1px;
+    margin-left: 20px;
+  }
+  
+  .player_guess {
+    border: solid black 1px;
+    padding: 20px
+  }
+
+  span {
+      align-items: center;
+  }
+
+   .plus {
+    border: solid blue 1px;
+    width: 50px;
+    height: 35px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 20pt;
+    margin:0;
+    display: inline-block;
+ }
+
+   .minus {
+    border: solid blue 1px;
+    width: 50px;
+    height: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20pt;
+    margin-right: -5px;
+    
+ }
+
+  .make_guess_button {
+    border: none;
+    padding: 15px 25px;
+    background: #068AE6;
+    color: white;
+    font-size: 12pt;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .determine_winner {
+    padding-top: 10px;
+}
+  
+  .next_round_button {
+    border: none;
+    padding: 15px 25px;
+    background: grey;
+    color: white;
+    font-size: 12pt;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+  }
+
+ footer {
+     background: #F7F7F7;
+     font-family: 'Raleway', sans-serif;
+     display: flex;
+     margin-top: 50px;
+ }
+
+ footer div {
+     width: 300px;
+     height: 150px;
+     margin: 0 auto;
+ }

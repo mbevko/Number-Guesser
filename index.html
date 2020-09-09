@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Number Guesser!</h1>
+        <h2 class="round_number">Round 1</h2>
+        <p class="target_number">Target Number: ?</p>
+      </header>
+      <section class="game">
+        <div class="computer">
+          <h3>Computer</h3>
+          <p class="computer_score">score</p>
+          <p class="computer_guess">?</p>
+        </div>
+        <div class="player">
+          <h3>Player</h3>
+          <p class="player_score">score</p>
+          <p class="player_guess"></p>
+          <span>
+            <button class="minus" disabled>-</button>
+            <button class="plus" enabled>+</button>
+          </span>
+          <button class="make_guess_button" enabled>Make a Guess</button>
+          <div class="determine_winner">
+          </div>
+      </section>
+      <article>
+        <button class="next_round_button" disabled>Next Round</button>
+      </article>
+      <footer>
+        <div class="step_one">
+            <h4>Step One</h4>
+            <p>Input a number between<br> 0 and 9</p>
+        </div>
+        <div class="step_two">
+            <h4>Step Two</h4>
+            <p>Click "Make a Guess" to<br>submit your guess and<br>see who won the round.</p>
+        </div>
+        <div class="step_three">
+            <h4>Step 3</h4>
+            <p>Click "Next Round" to<br>play again.</p>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>
